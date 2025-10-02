@@ -1,10 +1,7 @@
 {
   "name": "prismabun",
   "scripts": {
-    "postinstall": "prisma generate",
-    "dev": "bun run --hot src/index.ts",
-    "start": "bun run src/index.ts",
-    "build": "prisma generate && bun build src/index.ts --compile --outfile server"
+    "dev": "bun run --hot src/index.ts"
   },
   "dependencies": {
     "@prisma/client": "^6.16.3",
