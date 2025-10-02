@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "bun run --hot src/index.ts",
     "postinstall": "prisma generate",
-    "build": "prisma generate && bun build src/index.ts",
+    "build": "prisma generate && bun build src/index.ts --outdir dist --target bun",
     "start": "bun run dist/index.js"
   },
   "dependencies": {
